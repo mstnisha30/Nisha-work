@@ -1,0 +1,157 @@
+/*Googlefont*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;800&display=swap');
+
+body{
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
+   height: 100vh;
+background-image: url(./img/spinoch.jpg);
+height: 90px;
+width: 100px;
+}
+/*Common css*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+html,
+ .container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+ }
+
+ /*Header Area*/
+ #header{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+ header p{font-weight: 800;
+}
+#again {
+   background-color: blueviolet;
+   border: 0;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+   font-family: "Roboto Slab", serif; 
+   font-size: 50px;
+   font-weight: 300px;
+   padding: 10px 10px;
+   transition: 0.5s;
+}
+#again:hover {
+   background: #ff7979;
+}
+
+/*Hero area*/
+#hero-area{
+   padding: 45px 0 0;
+   text-align: center;
+   position: relative;
+}
+#heroarea h2 {
+font-size: 30;
+}
+#guess{
+   background: #fff;
+   width: 200px;
+   padding: 20px;
+   text-align: center;
+   margin: 10px auto;
+   font-size: 10px;
+}
+#win{
+   display: none;
+   background-image: url(img/win.png);
+   background-size: 50px;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 350px;
+   margin: 10PX auto;
+   height: 65px;
+
+
+}
+#HIDE{
+   position: absolute;
+   background-color: #fff;
+   background-image:url(img/warning.png);
+   background-size: 40px;
+   background-repeat: no-repeat;
+   background-position: center;
+   content: "";
+   width: 200px;
+   height: 79px;
+   left: 50%;
+   margin-left: -100px;
+   bottom: 0;
+
+}
+/*message info*/
+#Message_info{
+   width: 100%;
+   margin: 0 auto 20px;
+   text-align: center;
+  
+   
+
+}
+#Message_info p {
+font-size: 20px;
+font-weight: 500px;
+     
+}
+/*mainbody*/
+#main_body{
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.input_area{
+   display: flex;
+   flex-basis: 48%;
+   margin-right: 4%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.input{
+   background:  #fff;
+   border: 1px solid #edd;
+   border-radius: 5px;
+   padding: 10px;
+   font-family: "roboto slab", serif;
+   font-size: 16px;
+   font-weight: 500;   
+   text-align: center;
+   margin-bottom: 10px;
+   
+
+}
+
+#submit { 
+   background: #6ab0bc;
+   padding: 10px;
+   border: 0;
+   border-radius: 5px;
+   font-family: "roboto slab", serif;
+   font-weight: 500; 
+   cursor: pointer;
+   transition: 0.5s;
+   
+}
+#submit:hover{
+   background: #badc58;
+}
+.status_area{
+   flex-basis: 48%;
+   
+}
